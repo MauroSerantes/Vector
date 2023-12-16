@@ -4,16 +4,14 @@
   of functions and procedures for his easy manipulation. This template allows to using any kind of data type as his 
   arguments wich make it very versatile. It has many ways of use. The objective of this template is an abstraction of the
   simple array that language c provides.
-  <br>
 </div>
 
 <div>
   <h2>These are the procedures and functions prototypes that TDA VECTOR provides:</h2>
-  <br>
 </div>
 
 <div>
-  Vector)  vector_new_void(void);
+  <h3>Vector <t> vector_new_void(void)</h3>
 
 (Vector)      vector_new(uint32_t maxsize);
 
