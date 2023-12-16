@@ -4,6 +4,7 @@
   of functions and procedures for his easy manipulation. This template allows to using any kind of data type as his 
   arguments wich make it very versatile. It has many ways of use. The objective of this template is an abstraction of the
   simple array that language c provides.
+  <br>
 </div>
 
 <div>
