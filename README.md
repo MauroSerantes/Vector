@@ -1,8 +1,9 @@
 <h1>TDA VECTOR</h1>
 <div>
-  This is a way to implement a TDA Vector wich is based on array data structure. It provides certain amount of
-  functions and procedures for his manipulation. This template allows to using any kind of data type as his arguments 
-  wich make it very versatile.
+  This is a template implementation of a Vector structure wich is based on array data structure. It provides certain amount 
+  of functions and procedures for his easy manipulation. This template allows to using any kind of data type as his 
+  arguments wich make it very versatile. It has many ways of use. The objective of this template is an abstraction of the
+  simple array that language c provides.
 </div>
 
 These are the procedures and functions prototypes that TDA VECTOR provides:
