@@ -12,7 +12,9 @@
 
 <div>
   <h3><pre>Vector  vector_new_void(void) </pre> </h3>
-(Vector)      vector_new(uint32_t maxsize);
+
+  <h3><pre>Vector      vector_new(uint32_t maxsize) </pre> </h3>
+
 
 (void)        vector_free(Vector v);
 
