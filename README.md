@@ -11,8 +11,7 @@
 </div>
 
 <div>
-  <h3>Vector <t> vector_new_void(void)</h3>
-
+  <h3>Vector   vector_new_void(void) </h3>
 (Vector)      vector_new(uint32_t maxsize);
 
 (void)        vector_free(Vector v);
