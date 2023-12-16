@@ -13,12 +13,14 @@
 <div>
   <h3><pre>Vector  vector_new_void(void) </pre> </h3>
 
-  <h3><pre>Vector      vector_new(uint32_t maxsize) </pre> </h3>
+  <h3><pre>Vector  vector_new(uint32_t maxsize) </pre> </h3>
+
+  <h3><pre>void  vector_free(Vector v) </pre> </h3>
+
+  <h3><pre>uint32_t  vector_size(Vector  v)</pre> </h3>
 
 
-(void)        vector_free(Vector v);
 
-(uint32_t)    vector_size(Vector  v);
 
 (bool)        vector_isempty(Vector  v);
 
