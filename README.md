@@ -6,7 +6,9 @@
   simple array that language c provides.
 </div>
 
-These are the procedures and functions prototypes that TDA VECTOR provides:
+<div>
+  <h2>These are the procedures and functions prototypes that TDA VECTOR provides:</h2>
+</div>
 
 (Vector)     vector_new_void(void);
 
