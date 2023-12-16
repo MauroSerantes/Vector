@@ -1,7 +1,7 @@
 This is a way to implement a TDA Vector wich is based on array data structure. It provides certain amount of
 functions and procedures for his manipulation. This template allows to using any kind of data type as his arguments 
 wich make it very versatile.
-These are the procedures and function prototypes that TDA VECTOR provides:
+These are the procedures and functions prototypes that TDA VECTOR provides:
 
 (Vector)     vector_new_void(void);
 
