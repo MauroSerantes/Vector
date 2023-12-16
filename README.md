@@ -3,7 +3,7 @@ functions and procedures for his manipulation. This template allows to using any
 wich make it very versatile.
 These are the procedures and function prototypes that TDA VECTOR provides:
 
-Vector      vector_new_void(void);
+Vector __vector_new_void(void);
 
 Vector      vector_new(uint32_t maxsize);
 
