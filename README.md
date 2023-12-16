@@ -24,41 +24,36 @@
   <h3><pre>void*    vector_get(Vector  v,uint32_t index)</pre> </h3>
 
   <h3><pre>void*    vector_set(Vector  v,uint32_t index,void* value)</pre> </h3>
-  
 
+  <h3><pre>bool     vector_add(Vector  v,void* value)</pre> </h3>
 
+  <h3><pre>bool     vector_insert(Vector  v,uint32_t index,void* value)</pre> </h3>
 
+  <h3><pre>void*    vector_remove(Vector v,uint32_t index)</pre></h3>
 
+  <h3><pre>void     vector_select_sort(Vector v,int (*compare)(void*,void*))</pre></h3>
 
+  <h3><pre>void     vector_insert_sort(Vector v,int (*compare)(void*,void*))</pre></h3>
 
+  <h3><pre>void     vector_bubble_sort(Vector v,int (*compare)(void*,void*))</pre></h3>
 
-(bool)        vector_add(Vector  v,void* value);
+  <h3><pre>void     vector_bubble_sort_improved(Vector v,int (*compare)(void*,void*))</pre></h3>
 
-(bool)        vector_insert(Vector  v,uint32_t index,void* value);
+  <h3><pre>void     vector_quick_sort(Vector  v,int (*compare)(void*,void*))</pre></h3>
 
-(void*)       vector_remove(Vector v,uint32_t index);
+  <h3><pre>void     vector_merge_sort(Vector v,int (*compare)(void*,void*))</pre></h3>
 
-(void)        vector_select_sort(Vector v,int (*compare)(void*,void*));   
+  <h3><pre>void     vector_shell_sort(Vector v,int (*compare)(void*,void*))</pre></h3>
 
-(void)        vector_insert_sort(Vector v,int (*compare)(void*,void*));
+  <h3><pre>uint32_t vector_sequential_search(Vector v,void* value,int (*compare)(void*,void*))</pre></h3>
 
-(void)        vector_bubble_sort(Vector v,int (*compare)(void*,void*));
+  <h3><pre>uint32_t vector_binary_search(Vector v,void* value,int (*compare)(void*,void*))</pre></h3>
 
-(void)        vector_bubble_sort_improved(Vector v,int (*compare)(void*,void*));
+  <h3><pre>void     vector_traverse(Vector v,bool vector_do(void*,void*,uint32_t),void* context)</pre></h3>
+ </div>
 
-(void)        vector_quick_sort(Vector  v,int (*compare)(void*,void*));
-
-(void)        vector_merge_sort(Vector v,int (*compare)(void*,void*));
-
-(void)        vector_shell_sort(Vector v,int (*compare)(void*,void*));
-
-(uint32_t)    vector_sequential_search(Vector v,void* value,int (*compare)(void*,void*));
-
-(uint32_t)    vector_binary_search(Vector v,void* value,int (*compare)(void*,void*));
-
-(void)        vector_traverse(Vector v,bool vector_do(void*,void*,uint32_t),void* context);
+<div>
+  <p>In the main.c file there are some examples of how you can use this template.</p>
 </div>
 
-
-In the main.c file there are some examples of how you can use this template.
 
