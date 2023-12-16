@@ -8,9 +8,11 @@
 
 <div>
   <h2>These are the procedures and functions prototypes that TDA VECTOR provides:</h2>
+  <br>
 </div>
 
-(Vector)     vector_new_void(void);
+<div>
+  Vector)  vector_new_void(void);
 
 (Vector)      vector_new(uint32_t maxsize);
 
@@ -49,6 +51,8 @@
 (uint32_t)    vector_binary_search(Vector v,void* value,int (*compare)(void*,void*));
 
 (void)        vector_traverse(Vector v,bool vector_do(void*,void*,uint32_t),void* context);
+</div>
+
 
 In the main.c file there are some examples of how you can use this template.
 
